@@ -1,0 +1,8 @@
+{
+  "name": "vite_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bysking/vite_demo.git",
+  "author": "bysking <bysking@qq.com>",
+  "license": "MIT"
+}
