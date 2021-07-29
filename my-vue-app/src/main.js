@@ -1,4 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import MainApp from "./App.vue";
 
-createApp(App).mount('#app')
+import ElementPlus from "element-plus";
+import "element-plus/lib/theme-chalk/index.css";
+
+const App = createApp(MainApp);
+
+App.use(ElementPlus);
+
+App.mount("#app");
